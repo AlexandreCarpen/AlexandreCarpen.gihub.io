@@ -6,11 +6,8 @@ window.SITE_CONFIG = {
 
   hero: {
     profileImage: "assets/img/image1.jpg",
-
     courseTag: "SMRTTECH 4SC3",
-
     tagline: "Course Project: Smart Cities and Communities",
-
     studentName: "Alexandre Carpen",
     program: "B.Tech Automation / Smart Systems",
     university: "McMaster University, Canada",
@@ -64,7 +61,6 @@ window.SITE_CONFIG = {
       "Roadway and Traffic Modelling at Warden Avenue and Lawrence Avenue East, Toronto",
 
     heroVideo: "assets/video/video.mp4",
-
     heroVideoPoster: "",
 
     heroVideoAlt:
@@ -157,6 +153,8 @@ window.SITE_CONFIG = {
       {
         title: "Module 1: Road Network Development (SUMO)",
 
+        image: "assets/img/image2.jpg",
+
         bullets: [
           {
             text: "Develop the roadway network around Warden Avenue and Lawrence Avenue East using the supplied GIS reference."
@@ -172,6 +170,8 @@ window.SITE_CONFIG = {
 
       {
         title: "Module 2: Traffic Demand and Vehicle Configuration (SUMO)",
+
+        image: "assets/img/image3.jpg",
 
         bullets: [
           {
@@ -192,6 +192,8 @@ window.SITE_CONFIG = {
       {
         title: "Module 3: HDV and CAV Traffic Simulation (SUMO)",
 
+        image: "assets/img/image4.jpg",
+
         bullets: [
           {
             text: "Run the baseline simulation with 100% human-driven vehicles."
@@ -210,6 +212,8 @@ window.SITE_CONFIG = {
 
       {
         title: "Module 4: Signal Timing Intervention and Results Analysis",
+
+        image: "assets/img/image5.jpg",
 
         bullets: [
           {
