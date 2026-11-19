@@ -12,10 +12,10 @@ window.SITE_CONFIG = {
     // updated tagline text (big pill)
     tagline: "Course Project: Smart Cities and Communities",
 
-    studentName: "Yohan Mohammadi",
-    program: "Program / Department",
+    studentName: "Alexandre Carpen",
+    program: "B.Tech Automation / Smart Systems",
     university: "McMaster University, Canada",
-    email: "your.email@example.com"
+    email: "carpea1@mcmaster.ca"
   },
 
   disclaimer: {
@@ -28,7 +28,7 @@ window.SITE_CONFIG = {
   },
 
   theme: {
-    heroBg: "#111111",
+    heroBg: "#232A33",
     heroText: "#ffffff",
     pageBg: "#f8fafc",
     accent: "#7c3aed"
@@ -57,8 +57,8 @@ window.SITE_CONFIG = {
   },
 
   intro: {
-    projectTitleLabel: "Project Title",
-    projectTitle: "Development of Digital Twin of a Railway Corridor Using Unity Game Engine and SUMO Traffic Simulation",
+    projectTitleLabel: "Mini Project A",
+    projectTitle: "Sumo Simulation",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
@@ -71,26 +71,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"Smart Cities and Communities lab",
+			"Coming up with Github page for the sumo report of mini project one",
+			"Showcasing issues, actions and results",
+			"In addition to that a video as well"
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+			"Simulating real-world traffic flow and road network conditions can be challenging",
+			"Creating detailed traffic networks and scenarios in SUMO can be time-consuming.",
+			"Traditional 2D visualizations offer limited perspective on traffic movement and road infrastructure.",
+			"Analyzing and communicating traffic simulation results can be difficult."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
-			"Present results in different styles through KPIs, figures, and a showcase website."
+			"Simulate traffic flow, vehicle movement, and road network conditions using SUMO.",
+			"Develop traffic scenarios and road networks within SUMO.",
+			"Present simulation results through KPIs, figures, and a showcase website",
+			"Design and simulate realistic urban traffic scenarios using SUMO."
     ]
   },
 
@@ -98,23 +98,26 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+       		title: "Step 1: Traffic Network and Scenario Setup (SUMO)",
+			text: "Build a simulated road network and configure vehicle routes, traffic flows, and traffic demand.",
+
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				title: "Step 2: Digital Twin Assets Development (Blender)",
+				text: "Create 3D traffic assets, including vehicles, buildings, roads, and other urban elements using generative AI and Blender.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+			
+			title: "Step 3: Traffic Simulation and Scenario Testing (SUMO)",
+			text: "Run traffic simulations under different conditions to examine vehicle movement, traffic flow, and congestion.",
+
         image: "assets/img/image4.jpg"
       },
       {
-				title: "Step 4: Results & Communication (Figures + Showcase Website)",
-				text: "Summarize results using figures, KPIs, and the showcase website.",
+				title: "Step 4: Results Analysis and Communication (SUMO)",
+				text: "Analyze simulation outputs using KPIs, charts, traffic statistics, and a showcase website.",
         image: "assets/img/image5.jpg"
       }
     ]
@@ -124,69 +127,62 @@ window.SITE_CONFIG = {
     title: "Methodology Steps (Demo Modules)",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
-        bullets: [
-				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
-          { text: "Design fixed-block rail signals and define station stops along the corridor." },
-          { text: "Configure timetable, scheduled departures, running time, dwell time, and headway." }
-        ],
-        image: "assets/img/image2.jpg"
-      },
-      {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
-        bullets: [
-          { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to belnder." },
-          { text: "Preprocessing assets in Blender ." }
-        ],
-        image: "assets/img/image3.jpg"
-      },
-      {
-        title: "Module 3: Immersive VR Visualization (Unity)",
-        bullets: [
-				  { text: "Develop a 3D railway environment including stations, buildings, trees, and rolling stock." },
-          { text: "Configure visualization fundamentals: lighting, camera position, time of day, and scene composition." },
-          { text: "Produce a VR 360-degree video output for immersive presentation and portfolio use." }
-        ],
-        image: "assets/img/image4.jpg"
-      },
-      {
-        title: "Module 4: Results & Communication",
-        bullets: [
-          { text: "Dashboard or plot set: KPI cards, bar charts, and/or time series." },
-          { text: "Scenario story: what changed, what improved, and what tradeoffs appeared." },
-          { text: "Limitations + next steps: what data would strengthen confidence." }
-        ],
-        image: "assets/img/image5.jpg"
-      }
-    ]
+
+		  title: "Module 1: Road Network Development (SUMO)",
+			bullets: [
+			    { text: "Build an urban road network in SUMO, including roads, intersections, and connecting routes." },
+			    { text: "Configure lane numbers, speed limits, and road connections throughout the network." },
+			    { text: "Validate the road network using SUMO network editing and simulation tools." }
+			],
+			
+			title: "Module 2: Vehicle and Traffic Demand Configuration (SUMO)",
+			bullets: [
+			    { text: "Define different vehicle types, including passenger cars, buses, and heavy vehicles." },
+			    { text: "Generate vehicle routes and assign traffic flows across the road network." },
+			    { text: "Configure vehicle departure times, traffic volumes, and simulation demand." }
+			],
+			
+			title: "Module 3: Traffic Simulation and Scenario Testing (SUMO)",
+			bullets: [
+			    { text: "Run traffic simulations to observe vehicle movement and interactions across the network." },
+			    { text: "Test different traffic demand levels to examine changes in traffic flow and congestion." },
+			    { text: "Evaluate the effects of traffic volume and vehicle distribution on overall network performance." }
+			],
+			
+			title: "Module 4: Results Analysis and Communication",
+			bullets: [
+			    { text: "Extract simulation data, including vehicle counts, average speeds, travel times, and waiting times." },
+			    { text: "Compare simulation scenarios using charts, graphs, and key performance indicators (KPIs)." },
+			    { text: "Identify congestion patterns, evaluate network performance, and discuss potential traffic improvements." }
+			],
+       
   },
 
 	results: {
 			title: "Results & Potential Improvements",
 			subtitle:
-				"Train schedule simulation outputs across two scenarios showing arrivals, departures, and dwell time across four stations. Results are for educational purposes only.",
-
+			"Traffic simulation outputs comparing two SUMO scenarios, highlighting vehicle counts, average speeds, travel times, and congestion levels across the road network. Results are for educational purposes only.",
+			
 			charts: {
-				left: {
-					title: "Scenario 1 — Train Schedule: Arrivals, Departures & Dwell Time",
-					src: "assets/img/image6.jpg",
-					alt: "Scenario 1 train schedule chart showing arrivals and departures across S1 to S4"
-				},
-				right: {
-					title: "Scenario 2 — Train Schedule: Arrivals, Departures & Dwell Time",
-					src: "assets/img/image7.jpg",
-					alt: "Scenario 2 train schedule chart showing arrivals and departures across S1 to S4"
-				}
+			    left: {
+			        title: "Scenario 1 – Traffic Flow and Vehicle Performance",
+			        src: "assets/img/image6.jpg",
+			        alt: "Scenario 1 SUMO traffic simulation showing vehicle counts and average speeds"
+			    },
+			    right: {
+			        title: "Scenario 2 – Traffic Flow and Vehicle Performance",
+			        src: "assets/img/image7.jpg",
+			        alt: "Scenario 2 SUMO traffic simulation showing vehicle counts and average speeds"
+			    }
 			},
-
+			
 			discussionTitle: "Discussion",
 			discussionBullets: [
-				"Scenario 1 provides a stable baseline timetable with consistent station dwell and smooth train progression.",
-				"Scenario 2 applies a delay at S2, which then propagates to downstream stations.",
-				"Delay effects grow across frequency levels, with major increases in arrival and departure times at S3 and S4.",
-				"S1 is only slightly affected, while downstream stations absorb most of the disruption.",
-				"This demonstrates the importance of recovery time, dwell management, and operational control in rail scheduling."
+			    "Scenario 1 establishes a baseline traffic simulation to evaluate vehicle movement and overall road network performance.",
+			    "Scenario 2 examines how increased traffic demand influences vehicle movement and traffic conditions.",
+			    "Higher traffic volumes can result in reduced average speeds, increased travel times, and greater congestion.",
+			    "Intersections and heavily travelled road segments can become bottlenecks as traffic demand increases.",
+			    "Comparing simulation scenarios demonstrates how SUMO can be used to evaluate traffic conditions and identify potential improvements to road network efficiency."
 			]
 		},
 
@@ -196,7 +192,10 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Your Name", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+      { name: "Alexandre Carpen", role: "Sumo Sim-creator" },
+		{name: "Rithik", role: "report creator"},
+		{name: "Marcus", role: "Criteria Checker"}, 
+		{name: "Shehab", role: "Team member"}
     ],
 
     acknowledgments: [
@@ -207,6 +206,6 @@ window.SITE_CONFIG = {
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/USERNAME/REPO"
+    repoUrl: "https://github.com/AlexandreCarpen/REPO"
   }
 };
